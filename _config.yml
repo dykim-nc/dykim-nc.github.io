@@ -1,0 +1,44 @@
+# Site
+name: "nc-ai"
+title: "nc-ai"
+description: "Unofficial Blogging"
+meta_description: "Unofficial Blogging"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl: '/'
+email: 'maybedy@ncsoft.com'
+google_analytics: ''
+disqus: 'nc-ai'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+
+# Authors
+authors:
+  sal:
+    name: Doyun
+    display_name: Doyun
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: maybedy@ncsoft.com
+    web: https://nc-ai.github.io
+    twitter: 
+    description: "Unofficial blog admin"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
