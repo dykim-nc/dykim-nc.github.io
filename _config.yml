@@ -1,6 +1,6 @@
 # Site
-name: "nc-ai"
-title: "nc-ai"
+name: "NCAI"
+title: "NCAI"
 description: "Unofficial Blogging"
 meta_description: "Unofficial Blogging"
 logo: 'assets/images/logo.png'
@@ -19,7 +19,7 @@ authors:
     display_name: Doyun
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: maybedy@ncsoft.com
-    web: https://nc-ai.github.io
+    web: https://dykim-nc.github.io
     twitter: 
     description: "Unofficial blog admin"
 
