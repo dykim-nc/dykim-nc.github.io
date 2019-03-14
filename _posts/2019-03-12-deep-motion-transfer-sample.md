@@ -4,7 +4,7 @@ title:  "Deep Motion Transfer without Big Data (SIGGRAPH 2018 poster)"
 author: sal
 categories: [ MotionAI, DeepLearning ]
 image: assets/images/4.jpg
-featured: true
+featured: false
 ---
 We propose a deep motion transfer method which synthesizes a new motion from content and style motions so that the method generates various motions automatically.  
 
