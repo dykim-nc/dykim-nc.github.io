@@ -2,7 +2,7 @@
 layout: post
 title:  "Deep Motion Transfer without Big Data (SIGGRAPH 2018 poster)"
 author: sal
-categories: [ MotionAI, DeepLearning ]
+categories: [ Publication ]
 image: assets/images/4.jpg
 featured: false
 ---
