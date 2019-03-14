@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Is Intelligence Enough"
+title:  "NC Fellowship 후기!"
 author: sal
-categories: [ Press ]
+categories: [ Life ]
 image: assets/images/5.jpg
 ---
+좋은 분들 덕에 많이 배우고 갑니다!
 Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult.
 
 > We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically.

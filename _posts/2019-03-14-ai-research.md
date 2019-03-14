@@ -6,9 +6,7 @@ categories: [ Life ]
 image: assets/images/research1.jpg
 featured: true
 ---
-
 엔씨의 AI 연구개발 조직은 크게 AI센터와 NLP센터로 구성되어 있습니다.
-
 AI센터의 게임(Game)AI랩, 스피치(Speech)랩, 비전(Vision)TF, 그리고  NLP센터의 언어(Language)AI랩, 지식(Knowledge)AI, 이렇게 총 5개의 조직이 AI에 대한 각기 전문적인 기술 영역을 연구하고 있습니다.
 
 # AI센터 (Artificial Intelligence / 인공지능)

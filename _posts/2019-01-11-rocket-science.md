@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Markdown Example"
+title:  "I Like Rocket Science"
 author: sal
 categories: [ Publication ]
 image: assets/images/6.jpg
