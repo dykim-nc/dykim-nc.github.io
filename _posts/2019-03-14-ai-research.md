@@ -2,7 +2,7 @@
 layout: post
 title:  "엔씨소프트의 AI 연구개발 조직과 현황"
 categories: [ AI Research ]
-image: assets/images/research_1.jpg
+image: assets/images/research1.jpg
 featured: true
 ---
 
