@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "LipSync"
+author: sal
 categories: [ MotionAI ]
 image: assets/images/1.jpg
 featured: false
