@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LipSync"
-author: sal
+author: doyun
 categories: [ Research ]
 image: assets/images/1.jpg
 featured: false

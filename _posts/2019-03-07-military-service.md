@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "즐거운 회사 생활"
-author: sal
+author: doyun
 categories: [ Life ]
 image: assets/images/3.jpg
 ---

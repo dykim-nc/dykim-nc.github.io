@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deep Motion Transfer without Big Data (SIGGRAPH 2018 poster)"
-author: sal
+author: doyun
 categories: [ Publication ]
 image: assets/images/4.jpg
 featured: false

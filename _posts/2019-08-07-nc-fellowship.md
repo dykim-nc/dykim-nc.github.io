@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NC Fellowship 후기!"
-author: sal
+author: doyun
 categories: [ Life ]
 image: assets/images/5.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I Like Rocket Science"
-author: sal
+author: doyun
 categories: [ Publication ]
 image: assets/images/6.jpg
 ---
