@@ -20,17 +20,17 @@ authors:
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: maybedy@ncsoft.com
     web: https://dykim-nc.github.io
-    twitter: 
+    twitter:
     description: "Unofficial blog admin"
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-        
+
 # Archives
 jekyll-archives:
   enabled:
@@ -38,7 +38,7 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
+
 # Other
 markdown: kramdown
 highlighter: rouge
