@@ -6,7 +6,7 @@ meta_description: "Unofficial Blogging"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
-baseurl: '/'
+baseurl: ''
 email: 'maybedy@ncsoft.com'
 google_analytics: ''
 disqus: 'nc-ai'
@@ -19,7 +19,7 @@ authors:
     display_name: Doyun
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: maybedy@ncsoft.com
-    web: https://dykim-nc.github.io
+    web: https://maybedy.github.io
     twitter:
     description: "Unofficial blog admin"
 
@@ -42,3 +42,6 @@ jekyll-archives:
 # Other
 markdown: kramdown
 highlighter: rouge
+
+sass:
+  sass_dir: _sass
