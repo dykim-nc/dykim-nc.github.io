@@ -10,7 +10,6 @@ baseurl: ''
 email: 'maybedy@ncsoft.com'
 google_analytics: ''
 disqus: 'nc-ai'
-sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
 # Authors
 authors:
@@ -35,7 +34,7 @@ plugins:
 jekyll-archives:
   enabled:
     - categories
-  layout: archive
+  layout: post_list
   permalinks:
     category: '/category/:name/'
 
