@@ -1,15 +1,15 @@
 # Site
-name: "NCAI"
-title: "NCAI"
-description: "Unofficial Blogging"
-meta_description: "Unofficial Blogging"
+name: "NC AI Blog"
+title: "NC AI Blog"
+description: "Unofficial Blog"
+meta_description: "Unofficial Blog"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-paginate: 12
+paginate: 10
 baseurl: ''
 email: 'maybedy@ncsoft.com'
-google_analytics: ''
-disqus: 'nc-ai'
+# google_analytics: ''
+# disqus: 'nc-ai'
 
 # Authors
 authors:
