@@ -28,15 +28,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-archives
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: post_list
-  permalinks:
-    category: '/category/:name/'
 
 # Other
 markdown: kramdown
@@ -44,3 +35,30 @@ highlighter: rouge
 
 sass:
   sass_dir: _sass
+
+# Collections
+collections:
+  research:
+    output: true
+    title: Research
+    title_singular: Research
+    description: 연구 이야기들
+    sequence: 1 // for ordering collections
+  life:
+    output: true
+    title: Life
+    title_singular: Life
+    description: 생활들
+    sequence: 2
+  publication:
+    output: true
+    title: Publication
+    title_singular: Publication
+    description: 논문 및 학회
+    sequence: 3
+  press:
+    output: true
+    title: Press
+    title_singular: Press
+    description: 관련 기사
+    sequence: 4  

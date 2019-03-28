@@ -22,15 +22,16 @@ title: Main
     </div>
 
     <div class="row listfeaturedtag">
+    {% for collection in site.collections %}
+        {% for post in site[collection.label] %}
 
-    {% for post in site.posts %}
+            {% if post.featured == true %}
 
-        {% if post.featured == true %}
+                {% include featuredbox.html %}
 
-            {% include featuredbox.html %}
+            {% endif %}
 
-        {% endif %}
-
+        {% endfor %}
     {% endfor %}
 
     </div>
@@ -53,20 +54,20 @@ title: Main
         </div>
         <div class="masonrygrid row listrecent">
 
-            {% for post in paginator.posts %}
-
-            {% unless post.featured == true %}
-
-                {% include postbox.html %}
-
-            {% endunless %}
-
+            {% for collection in site.collections %}
+                {% for post in site[collection.label] %}
+                    {% if post.index != true %}
+                        {% unless post.featured == true %}
+                            {% include postbox.html %}
+                        {% endunless %}
+                    {% endif %}
+                {% endfor %}
             {% endfor %}
 
         </div>
 
         <!-- Pagination -->
-        <div class="bottompagination">
+        <!-- <div class="bottompagination">
 
             <span class="navigation" role="navigation">
 
@@ -74,7 +75,7 @@ title: Main
 
             </span>
 
-        </div>
+        </div> -->
 
     </div>
 

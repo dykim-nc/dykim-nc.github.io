@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% assign collection_name = page.collection %}
+{% assign collection = site.collections | where:"label", collection_name | first %}
+{% assign posts = site[collection_name] | where:"layout", "post" %}
+
+<section class="row recent-posts">
+    <div class="col-md-12 col-lg-12">
+        <div class="section-title">
+            <h2><span>'{{ page.collection }}'</span></h2>
+        </div>
+        <div class="masonrygrid row listrecent">
+
+            {% for post in posts %}
+
+            {% include postbox.html %}
+
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
+
+    
+<!-- <article class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>  
+    <div class="post-content">
+        {{ content }}
+    </div>
+      
+</article> -->
