@@ -9,7 +9,7 @@ paginate: 10
 baseurl: ''
 email: 'maybedy@ncsoft.com'
 # google_analytics: ''
-# disqus: 'nc-ai'
+disqus: 'https-dykim-nc-github-io'
 
 # Authors
 authors:
