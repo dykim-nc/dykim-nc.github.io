@@ -14,13 +14,21 @@ email: 'maybedy@ncsoft.com'
 # Authors
 authors:
   doyun:
-    name: Doyun
-    display_name: Doyun
+    name: Doyun Kim
+    display_name: 김도윤
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: maybedy@ncsoft.com
     web: https://maybedy.github.io
     twitter:
-    description: "Unofficial blog admin"
+    description: "AI Center 온갖일 다함"
+  
+  inseok:
+    name: Inseok Oh
+    display_name: 오인석
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: ohinsuk@ncsoft.com
+    web: 
+    description: "Game AI Lab 강화학습팀"
 
 # Plugins
 plugins:
@@ -32,6 +40,12 @@ plugins:
 # Other
 markdown: kramdown
 highlighter: rouge
+
+defaults: 
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
 
 sass:
   sass_dir: _sass
