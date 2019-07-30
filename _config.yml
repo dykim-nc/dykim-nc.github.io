@@ -36,6 +36,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  
 
 # Other
 markdown: kramdown
